@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=MuseoModerno:300);
+
+:root {
+  --bg-color: #121212;
+  --font-color: #ffffff;
+  --font-secondary-color: #707070;
+  --primary-color: #fd346a;
+}
+
+html {
+  font-family: 'MuseoModerno', 'Open Sans', 'sans-serif';
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
